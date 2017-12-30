@@ -1,4 +1,4 @@
-function [imgData,lblData] = loadData(strFileNameData, strFileNameLabel)
+function [imgData, lblData] = loadData(strFileNameData, strFileNameLabel)
     imgData = loadMNISTImages(strFileNameData);
-    lblData = loadMNISTLabels( strFileNameLabel);
+	lblData = loadMNISTLabels(strFileNameLabel);
 end
